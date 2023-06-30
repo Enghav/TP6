@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex flex-col gap-4 h-[800px] w-[600px] m-[90px] bg-slate-600">
+      <div class="text-gray-600  dark:text-gray-400 mt-4">
+        <div class="text-center text-[20px]">About</div>
+        <div class="text-center text-[20px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          tellus
+        </div>
+      </div>
+      <div class="w-[500px] m-12 mt-0 mb-0 relative rounded-[10px] overflow-hidden">
+        <img
+          src="https://artbusinessnews.com/wpdev/wp-content/uploads/2021/06/Picture1.jpg"
+        />
+      </div>
+      <div class="w-[550px]">
+        <div class="ml-12 mb-4 border-b border-gray-200 dark:border-gray-700">
+          <ul
+            class="flex flex-wrap -mb-px text-sm font-medium text-center"
+            id="myTab"
+            data-tabs-toggle="#myTabContent"
+          >
+            <li class="mr-2 pr-16" role="presentation">
+              <button
+                class="inline-block p-4 border-b-2 rounded-t-lg text-[16px]"
+                id="profile-tab"
+                data-tabs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                History
+              </button>
+            </li>
+            <li class="mr-7 ml-14" role="presentation">
+              <button
+                class="inline-block text-[20px] p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="dashboard-tab"
+                data-tabs-target="#dashboard"
+                type="button"
+                role="tab"
+                aria-controls="dashboard"
+                aria-selected="false"
+              >
+                Vision
+              </button>
+            </li>
+            <li class=" ml-16 pl-[26.5px]" role="presentation">
+              <button
+                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 text-[20px]"
+                id="settings-tab"
+                data-tabs-target="#settings"
+                type="button"
+                role="tab"
+                aria-controls="settings"
+                aria-selected="false"
+                
+              >
+                Goals
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div id="myTabContent">
+          <div
+            class="hidden p-4 rounded-lg"
+            id="profile"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
+            <p class="text-[16px] text-gray-600 dark:text-gray-400 ml-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec
+              tellus scelerisque nulla faucibus tempor. Suspendisse et metus
+              consectetur, aliquam erat id, aliquam felis. In ornare dignissim
+              venenatis. Mauris dolor felis, tristique a massa sit amet,
+              scelerisque mattis lorem. Pellentesque vitae accumsan arcu.
+              Suspendisse potenti. Vivamus vitae nibh eu lorem lacinia
+              sollicitudin. Morbi pharetra turpis non maximus laoreet. Nulla eu
+              dignissim justo. Nam ornare suscipit lectus a volutpat. Vivamus
+              sed arcu ullamcorper, congue mauris sit amet, consectetur dui.
+              Morbi tristique condimentum elementum. Vivamus in diam ac mauris
+              varius tincidunt nec nec ante.
+            </p>
+          </div>
+          <div
+            class="hidden p-4 rounded-lg"
+            id="dashboard"
+            role="tabpanel"
+            aria-labelledby="dashboard-tab"
+          >
+            <p class="text-[16px] text-gray-600 dark:text-gray-400 ml-8">
+              Integer porta feugiat lacinia. Donec pharetra, lacus non molestie
+              euismod, massa nunc laoreet purus, nec dapibus risus risus a
+              nulla. Mauris pulvinar tincidunt posuere. Duis sit amet dignissim
+              nulla. Morbi nec magna tincidunt, vulputate sapien in, maximus mi.
+              Maecenas vitae faucibus leo, ut maximus neque. Donec gravida lorem
+              justo, ac commodo sem lobortis eget. Vestibulum blandit, nibh
+              tristique ultricies egestas, tellus ante fermentum neque, vel
+              ultrices diam velit sodales ex. Vivamus auctor enim odio, quis
+              dictum urna volutpat nec.
+            </p>
+          </div>
+          <div
+            class="hidden p-4 rounded-lg"
+            id="settings"
+            role="tabpanel"
+            aria-labelledby="settings-tab"
+          >
+            <p class="text-[16px] text-gray-600 dark:text-gray-400 ml-8">
+              Quisque dolor augue, convallis eu tristique id, laoreet sit amet
+              est. Etiam congue, quam nec euismod efficitur, tortor sem
+              elementum nibh, ut rhoncus diam odio et elit. Etiam eros mi,
+              imperdiet eget orci non, malesuada feugiat tortor. Proin a leo
+              mollis, efficitur felis eget, ornare nibh. Cras eget justo vitae
+              libero mattis tincidunt vel vel nisl. Aenean eu augue vel lectus
+              ornare blandit a vitae est. Suspendisse sit amet fringilla risus.
+              Proin id blandit nunc, quis tincidunt nibh. Ut eros lorem,
+              condimentum vel pretium quis, pharetra eu neque. Integer id felis
+              ut purus consequat vulputate viverra a arcu.
+            </p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+  </body>
+</html>
